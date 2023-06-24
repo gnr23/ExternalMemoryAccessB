@@ -16,6 +16,9 @@
     <Filter Include="Proc">
       <UniqueIdentifier>{d92b40c5-4ac6-42cd-bc33-84c91619d36d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="mem">
+      <UniqueIdentifier>{f5bf1227-d559-4088-9ea5-60d26571c130}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="ExternalMemoryAccessB.cpp">
@@ -27,6 +30,9 @@
     <ClCompile Include="proc.cpp">
       <Filter>Proc</Filter>
     </ClCompile>
+    <ClCompile Include="mem.cpp">
+      <Filter>mem</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
@@ -34,6 +40,9 @@
     </ClInclude>
     <ClInclude Include="proc.h">
       <Filter>Proc</Filter>
+    </ClInclude>
+    <ClInclude Include="mem.h">
+      <Filter>mem</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
